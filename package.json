@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch sass/main.scss css/main.css"
+  },
+  "name": "pfferrario",
+  "version": "1.0.0",
+  "description": "Mi proyecto final, como estudiante de Coderhouse",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "proyecto",
+    "final",
+    "coderhouse"
+  ],
+  "author": "Lautaro Ferrario",
+  "license": "ISC"
+}
