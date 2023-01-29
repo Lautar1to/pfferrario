@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+ // Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$txtactivo: #a66249;
+
+$custom-colors: (
+  "colornav": #735145,
+  "coloractivo": $txtactivo,
+);
+$footerTexto: rgb(0, 0, 0);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+nav {
+    a.navbar-brand{ 
+        font-family: 'Sansita Swashed', cursive;
+    }
+}
+body {
+    background-color: #FFE9E7;
+    h1 {
+        font-family: 'Sansita Swashed', cursive;
+}
+}
+footer {
+    p {
+        font-family: 'Sansita Swashed', cursive;
+    }
+}
+.animate__animated.animate__fadeIn {
+    
+    --animate-duration: 2s;
+  }
+div.container-fluid.uno{
+    background-color: #FFE9E7;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
