@@ -23,6 +23,10 @@ div.container-fluid.uno, div.uno.container-xxl, div.uno.container-xl, div.uno.co
   background-color: #FFE9E7;
 }
 
+div small, div .small {
+  font-size: 20px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
