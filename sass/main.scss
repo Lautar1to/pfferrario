@@ -6,11 +6,17 @@
 $txtactivo: #a66249;
 $precio: #016647;
 $alerta: #AC3A13;
+$cardceleste: #e3f2fd;
+$cardnaranja: #ffecb3 ;
+$cardmarron: #efebe9;
 $custom-colors: (
   "colornav": #735145,
   "coloractivo": $txtactivo,
   "precio": #016647,
   "alerta": #AC3A13,
+  "cardceleste": #e3f2fd,
+  "cardmarron": #efebe9,
+  "cardnaranja": #ffecb3,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
